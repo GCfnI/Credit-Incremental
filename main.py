@@ -1,7 +1,7 @@
 from Engine.Loop import Pool
 import pygame as py
 py.init()
-screen_size = (960, 540)
+screen_size = (240, 135)
 running = True
 
 while running:
