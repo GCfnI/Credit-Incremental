@@ -18,7 +18,7 @@ class Pool:
     Pool.loop_dict['left_click'] = py.mouse.get_pressed()[0]
     Pool.loop_dict['right_click'] = py.mouse.get_pressed()[2]
     Pool.loop_dict['pos'] = py.mouse.get_pos()
-    alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+    alphabet = 'abcdefghijklmnopqrstuvwxyz1234567890'
     for letter in alphabet:
       Pool.loop_dict[letter] = py.key.get_pressed()[getattr(py, f'K_{letter}')]
     return True
