@@ -1,0 +1,9 @@
+
+class Card_System:
+
+    cards = []
+    equipped_card: str 
+    @staticmethod
+    def use_card(self):
+        if Card_System.cards.len() != 0:
+            
